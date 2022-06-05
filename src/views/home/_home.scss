@@ -1,0 +1,16 @@
+button {
+  display: flex;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  border-radius: 5pc;
+  background: $bg-secondary;
+  color: $bg-primary;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover {
+    color: $bg-accent;
+  }
+}

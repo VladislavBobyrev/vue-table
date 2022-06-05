@@ -1,0 +1,33 @@
+html {
+  display: flex;
+  min-height: -webkit-fill-available;
+}
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  line-height: 1.5;
+  color: $color-secondary;
+  background: $bg-basic-75;
+  font-family: "Montserrat";
+}
+
+#app,
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#app{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 0 0 5px 0;
+}
+.danger{
+  background: #e73939ef;
+  color:$color-secondary;
+}
