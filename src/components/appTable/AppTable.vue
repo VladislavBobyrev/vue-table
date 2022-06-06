@@ -30,7 +30,7 @@ export default defineComponent({
 
     const cost:number[] = []
     
-    // добавляем в обьект поле cost
+    // добавляем в объект поле cost
     const getCost = [...objects].filter((val) => {
       if(val.price > 0) {
         val.cost = val.price * val.amount
