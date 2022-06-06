@@ -3,12 +3,18 @@ import {randomNumber} from '@/use/randomNum'
 
 export const arrObjects: any = []
 
+interface TableObjects {
+  name: string, 
+  price: number, 
+  amount: number,
+  cost?: number, 
+}
 /**
  * @function getObjects формирует массив обьектов для таблицы
  * @param count количество обьектов
  * @returns arrObjects массив обьектов со значениями name, price, amount
  */
-export const getObjects = (count:number):any => {
+export const getObjects = (count:number):TableObjects[] => {
   while(count > 0) {
     const object = {
       name: randomString(alfabet, 5),
