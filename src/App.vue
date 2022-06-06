@@ -9,7 +9,7 @@ import AppMain from '@/layout/main/AppMain.vue'
 export default defineComponent({
   components: {AppMain},
 })
-console.log(`My telegramm: @vldislavbobyrev`);
+console.log(`My telegram: @vldislavbobyrev`);
 </script>
 
 
